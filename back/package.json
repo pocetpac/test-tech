@@ -1,0 +1,20 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.3.1",
+    "dotenv": "^16.0.3",
+    "graphql": "^16.6.0",
+    "graphql-import": "^1.0.2",
+    "mongoose": "^6.8.4"
+  }
+}

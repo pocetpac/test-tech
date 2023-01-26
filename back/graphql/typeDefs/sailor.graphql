@@ -1,0 +1,16 @@
+type Sailor {
+    _id: ID!
+    name: String!
+}
+
+type Query {
+    getSailors: [Sailor]
+}
+
+type Mutation {
+    addSailor(addSailorInput: addSailor): Sailor
+}
+
+input addSailor {
+    name: String!
+}
